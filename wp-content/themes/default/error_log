@@ -1,0 +1,2 @@
+[18-Mar-2012 21:44:23] PHP Fatal error:  Call to undefined function  get_header() in /home5/filmands/public_html/wp-content/themes/default/index.php on line 7
+[18-Mar-2012 21:44:33] PHP Fatal error:  Call to undefined function  get_header() in /home5/filmands/public_html/wp-content/themes/default/index.php on line 7

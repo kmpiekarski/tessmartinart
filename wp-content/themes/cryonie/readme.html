@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Document sans nom</title>
+</head>
+
+<body>
+<h1 align="center">Cryonie Wordpress Theme</h1>
+<p>Author: Denis Sureau - <a href="http://www.scriptol.com">Scriptol.com</a> </p>
+<p>License: GNU GPL 2.0. </p>
+<p>URL: <a href="http://www.scriptol.com/wordpress/cryonie.php" target="_parent">Cryonie Theme</a>  </p>
+<h2>Features</h2>
+<ul>
+  <li> SEO-friendly. </li>
+  <li> Flexible width (fluid, liquid). </li>
+  <li> Minimum width of 480 pixels. </li>
+  <li> Maximum width of 1280 pixels. </li>
+  <li> Classic layout   with two columns and menu to the left. </li>
+  <li> Navigation bar with categories on the left and  static pages on the right. <br />
+  Can hold 7 cat&eacute;gories and 4 pages (may be modified). </li>
+  <li> List of recent articles below the posts. </li>
+  <li> Easy to edit. </li>
+  <li> A static page is provided (<a href="http://www.scriptol.com/wordpress/style-demo.html" target="_parent">on this site</a>) to try changes in the layout. </li>
+</ul>
+<p>In addition, a 8-page tutorial can help you adapt the theme to your needs.</p>
+<h2> Compatibility</h2>
+<p> The theme has been tested and works under:</p>
+<ul>
+  <li> All Firefox versions. </li>
+  <li> Internet Explorer 8. </li>
+  <li> Safari 4. </li>
+  <li> Chrome 2. </li>
+  <li> Opera 9. </li>
+  <li> And more ... </li>
+</ul>
+
+<p>It works under older browsers but transparency is not handled by old version of IE for PNG image... that must be removed or replaced anyway (it is a part of the cryonie.com website and is here for demo only). </p>
+<h2>Installing the theme</h2>
+<p> Extract the contents of the archive. Before putting it online,  add your  logo  with a transparent background, so a GIF  or PNG format.</p>
+<p> The maximum size is 320 x 48 pixels, which can be modified in the style sheet (descriptor is: logo).</p>
+<p>It is recommanded to remove the display of title and description in text form in header.php. In this block: </p>
+<pre>  &lt;div id=&quot;logo&quot;  onclick=&quot;location.href='&lt;?php echo get_settings('home'); ?&gt;/';&quot;&gt;<br />      &lt;?php bloginfo('name'); ?&gt; &lt;br&gt;<br />      &lt;span class=&quot;sitedesc&quot;&gt;&lt;?php bloginfo('description'); ?&gt;&lt;/span&gt;  <br />  &lt;/div&gt;</pre>
+<p>Delete:</p>
+<pre>      &lt;?php bloginfo('name'); ?&gt; &lt;br&gt;<br />      &lt;span class=&quot;sitedesc&quot;&gt;&lt;?php bloginfo('description'); ?&gt;&lt;/span&gt;   </pre>
+<p>Then copy the <em>cryonie</em> directory into:</p>
+<pre>wp-content/themes/</pre>
+<p> Then go to the administration panel to activate this theme.</p>
+<p>The theme is deliberately provided with additional elements to allow you to choose them by deleting some.</p>
+<ul>
+  <li> You can change the composition of the side panel with your selection of widgets from the administering panel. </li>
+  <li> Else remove the elements that you do not want to keep inside sidebar.php, through the theme editor. </li>
+  <li> It is advisable for SEO to remove the  blogroll, categories that are already in navigation bar, the calendar. </li>
+  <li> You can edit the style sheet (style.css) to change the minimum and maximum width, in the  body descriptor. </li>
+</ul>
+<h2> Live demo </h2>
+<ul>
+  <li><a href="http://www.cryonie.com" target="_parent">Cryonie.com</a></li>
+</ul>
+</body>
+</html>

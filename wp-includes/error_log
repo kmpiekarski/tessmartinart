@@ -1,0 +1,23 @@
+[13-May-2010 14:12:05] PHP Fatal error:  Call to undefined function  add_action() in /home5/filmands/public_html/blog/wp-includes/canonical.php on line 343
+[20-Dec-2011 09:36:57] PHP Fatal error:  Class 'Walker' not found in /home5/filmands/public_html/wp-includes/nav-menu-template.php on line 17
+[20-Dec-2011 09:40:00] PHP Fatal error:  Call to undefined function  add_action() in /home5/filmands/public_html/wp-includes/author-template.php on line 399
+[10-Feb-2012 07:12:28] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home5/filmands/public_html/wp-includes/rss-functions.php on line 8
+[23-Apr-2012 12:27:15] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home5/filmands/public_html/wp-includes/rss.php on line 18
+[23-Apr-2012 12:27:20] PHP Fatal error:  Class 'Walker' not found in /home5/filmands/public_html/wp-includes/nav-menu-template.php on line 17
+[23-Apr-2012 12:27:35] PHP Fatal error:  Call to undefined function  add_action() in /home5/filmands/public_html/wp-includes/author-template.php on line 399
+[23-Apr-2012 12:27:56] PHP Fatal error:  Call to undefined function  add_filter() in /home5/filmands/public_html/wp-includes/default-filters.php on line 17
+[23-Apr-2012 12:28:42] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class.wp-dependencies.php' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home5/filmands/public_html/wp-includes/script-loader.php on line 25
+[23-Apr-2012 12:28:59] PHP Fatal error:  Call to undefined function  add_action() in /home5/filmands/public_html/wp-includes/general-template.php on line 1284
+[16-Sep-2012 10:27:16] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home5/filmands/public_html/wp-includes/rss.php on line 18
+[16-Sep-2012 10:27:27] PHP Fatal error:  Call to undefined function  add_action() in /home5/filmands/public_html/wp-includes/author-template.php on line 394
+[16-Sep-2012 10:27:49] PHP Fatal error:  Class 'Walker' not found in /home5/filmands/public_html/wp-includes/nav-menu-template.php on line 17
+[16-Sep-2012 10:29:33] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class.wp-dependencies.php' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home5/filmands/public_html/wp-includes/script-loader.php on line 25
+[16-Sep-2012 10:29:35] PHP Fatal error:  Call to undefined function  add_action() in /home5/filmands/public_html/wp-includes/general-template.php on line 1283
+[16-Sep-2012 10:31:04] PHP Fatal error:  Call to undefined function  add_filter() in /home5/filmands/public_html/wp-includes/default-filters.php on line 17
+[06-Jan-2013 17:04:03] PHP Fatal error:  Call to undefined function  add_action() in /home5/filmands/public_html/wp-includes/admin-bar.php on line 39
+[06-Jan-2013 17:04:05] PHP Fatal error:  Call to undefined function  add_action() in /home5/filmands/public_html/wp-includes/author-template.php on line 392
+[06-Jan-2013 17:04:06] PHP Fatal error:  Call to undefined function  add_action() in /home5/filmands/public_html/wp-includes/canonical.php on line 506
+[13-Jan-2013 23:24:25] PHP Fatal error:  Call to undefined function  add_action() in /home5/filmands/public_html/wp-includes/admin-bar.php on line 39
+[13-Jan-2013 23:24:26] PHP Fatal error:  Call to undefined function  add_action() in /home5/filmands/public_html/wp-includes/author-template.php on line 392
+[13-Jan-2013 23:24:28] PHP Fatal error:  Call to undefined function  add_action() in /home5/filmands/public_html/wp-includes/canonical.php on line 506
+[13-Jan-2013 23:24:29] PHP Fatal error:  Class 'Walker' not found in /home5/filmands/public_html/wp-includes/category-template.php on line 766

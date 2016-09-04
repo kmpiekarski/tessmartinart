@@ -1,0 +1,448 @@
+/*	
+Theme Name: Crispp
+Theme URI: http://trevorfitzgerald.com/crispp-wordpress-theme/
+Description: Crispp is a minimal theme with clean lines that lets visitors focus on your content. A separate administrative section allows you to change the color scheme however you like. The theme is very flexible. Inspired in part by theoatmeal.com.
+Author: Trevor Fitzgerald
+Author URI: http://trevorfitzgerald.com/
+Version: 1.2
+Tags: white, light, dark, two-columns, fixed-width, custom-colors, theme-options, threaded-comments
+*/
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url();
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+#wrapper {
+	margin: 1em auto;
+	width: 965px;
+}
+
+#header {
+	margin: 0 0 2em;
+        header-image: url(http://filmandscissors.com/graphics/long%20top%20trial%20flat.jpg);
+}
+
+#header h2 {
+	font-size: 2.4em;
+	padding: 0.1em 0 0;
+	line-height: 1.4em;
+}
+	#header h2 a:hover {
+		text-decoration: none;
+	}
+
+#nav {
+	float: right;
+}
+#nav li {
+	margin: 0.5em 0 0;
+	float: left;
+}
+	#nav a {
+		display: block;
+		background: #fff;
+		padding: 0.8em;
+		margin: 0 0.4em 0.5em;
+		font-size: 1.2em;
+	}
+	#nav a:hover {
+		background: #f9f9f9;
+		text-decoration: none;
+	}
+
+#intro {
+	background: #f9f9f9;
+	padding: 3em;
+	color: #444;
+	margin: 0 0 2em;
+}
+	#intro h2 {
+		font-size: 3em;
+		line-height: 1.4em;
+	}
+	#intro h1 {
+		font-size: 1.6em;
+		line-height: 1.4em;
+	}
+	#intro h3 {
+		margin: 1em 0 0;
+		font-size: 1.2em;
+	}
+		#intro h3 a {
+			color: #FF6600;
+		}
+
+#primary {
+	background: #fff;
+	padding: 2em;
+}
+
+#main {
+	float: left;
+	width: 620px;
+}
+
+#main h1,
+#main h2 {
+	font-size: 1.8em;
+	margin: 0.3em 0;
+}
+	#main h2 a {
+		text-decoration: underline;
+	}
+	#main h2 a:hover {
+		text-decoration: none;
+	}
+
+#main h3,
+#main h4,
+#main h5,
+#main h6 {
+	margin: 0.8em 0;
+}
+	#main h3 {
+		font-size: 1.4em;
+	}
+	#main h4 {
+		font-size: 1.3em;
+	}
+	#main h5 {
+		font-size: 1.2em;
+	}
+	#main h6 {
+		font-size: 1.1em;
+	}
+
+.post {
+	padding: 0 0 4em;
+}
+
+.postMeta {
+	font-size: 0.9em;
+	line-height: 2em;
+}
+
+.content img {
+	padding: 1em;
+}
+.gallery img {
+	padding: 0.5em;
+}
+
+.commentCount {
+	float: right;
+	text-align: center;
+}
+	.commentCount a {
+		display: block;
+		font-weight: bold;
+		width: 44px;
+		height: 26px;
+		font-size: 0.8em;
+		padding: 0.4em 0 0 0;
+		background-image: url(images/commentBubble.png);
+		background-repeat: no-repeat;
+	}
+
+.postdate {
+	position: absolute;
+	text-align: center;
+	background: #fff;
+	color: #333;
+	margin-left: -6em;
+	padding: 1em;
+}
+	.day {
+		font-size: 1.8em;
+	}
+	.month {
+	}
+	.year {
+		font-size: 0.9em;
+	}
+
+.content {
+	margin: 1em 0;
+}
+
+p {
+	line-height: 1.7em;
+	margin: 1.5em 0;
+}
+
+.content ol,
+.content ul {
+	line-height: 1.7em;
+	margin: 1.5em 3em;
+}
+
+.content ol {
+	list-style: decimal;
+}
+
+.content ul {
+	list-style: disc;
+}
+
+#sidebar {
+	margin-left: 700px;
+	color: #ccc;
+	font-size: 0.9em;
+	color: #999;
+}
+	#sidebar .widget {
+		margin: 2em 0;
+	}
+
+#sidebar .searchInput {
+	width: 170px;
+}
+
+.widgettitle {
+	font-size: 1.2em;
+	margin: 0 0 1em;
+}
+
+#sidebar li {
+	border-bottom: 0.1em solid #ddd;
+}
+	#sidebar li a {
+		display: block;
+		padding: 0.4em;
+		line-height: 1.2em;
+	}
+	#sidebar li a:hover {
+		background: #f9f9f9;
+	}
+	#sidebar li ul a {
+		padding: 0.4em 0.4em 0.4em 1em;
+	}
+	#sidebar li ul li {
+		border-bottom: none;
+	}
+
+#sidebar .rss-date {
+	font-size: 0.9em;
+	color: #aaa;
+}
+
+#sidebar .rssSummary {
+	padding: 0.5em 0 1em 1em;
+}
+
+#sidebar #recentcomments li {
+	padding: 0.4em;
+}
+
+#sidebar .widget_calendar {
+	margin: 2em auto;
+	text-align: center;
+}
+	.widget_calendar table {
+		width: 80%;
+	}
+	.widget_calendar caption {
+		font-weight: bold;
+		margin: 0 0 0.5em;
+	}
+	.widget_calendar thead {
+		background: #999;
+		color: #fff;
+	}
+	.widget_calendar th,
+	.widget_calendar td {
+		padding: 0.2em;
+	}
+		.widget_calendar tbody a {
+			display: block;
+			font-weight: bold;
+		}
+
+.commentlist li {
+	background: #f7f7f7;
+	margin: 0 0 2em;
+	padding: 1em;
+}
+	.commentlist li.author {
+		background: #feffcb;
+	}
+.commentlist .name {
+	color: #333;
+	font-size: 1.2em;
+	line-height: 1.4em;
+}
+	.commentlist .name a {
+		color: #0082ff;
+	}
+	.commentlist .date {
+		font-size: 0.8em;
+		color: #aaa;
+	}
+	.commentlist .comment-text {
+		margin: 1em 0 0;
+	}
+.authorAvatar {
+	float: left;
+}
+.avatar {
+	padding: 0.3em;
+	border: 0.2em solid #EBEBE4;
+}
+.comment {
+	margin: 0 0 1.4em 100px;
+}
+.comment-no-avatar {
+	margin: 0 0 1.4em 0;
+}
+	.comment code {
+		background: #fff;
+		padding: 0.4em;
+	}
+.actions {
+	float: right;
+	color: #ddd;
+}
+	.actions a {
+		 font-size: 0.8em;
+		 font-style: italic;
+	}
+.cancel-comment-reply {
+	float: right;
+}
+	.cancel-comment-reply a {
+		 font-size: 0.8em;
+	}
+		.comment-text p {
+			font-size: 0.9em;
+		}
+		.children li {
+			border-left: 0.2em solid #ddd;
+		}
+
+	.loggedIn {
+		font-size: 0.8em;
+		margin: 0 0 1em;
+		color: #444;
+	}
+
+#footer {
+	background: #ddd;
+	margin: 1em 0;
+	color: #444;
+	font-size: 0.9em;
+}
+	#footer .widget {
+		float: left;
+		width: 260px;
+		padding: 2em;
+	}
+
+#footer ol,
+#footer ul {
+	line-height: 1.7em;
+}
+
+#credits {
+	text-align: center;
+	color: #777;
+	font-size: 0.8em;
+	padding: 1em 0;
+}
+
+#credits a {
+	color: #0082FF;
+}
+
+blockquote {
+	margin: 0 2em;
+	padding: 0 0 0 1em;
+	border-left: 0.2em solid #ccc;
+	color: #333;
+}
+
+cite {
+	font-size: 0.9em;
+	font-style: italic;
+}
+	cite a {
+		font-style: italic;
+	}
+
+pre {
+	margin: 1em 3em;
+	background: #f9f9f9;
+	padding: 1em;
+}
+
+.clear {
+	clear: both;
+}
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+a {
+	color: #FF0E3F;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.edit {
+	float: right;
+	font-size: 0.8em;
+}
+
+.success {
+	margin: 1em;
+	padding: 1em 1em 1em 3em;
+	color: #4f8a10;
+	font-size: 0.9em;
+	line-height: 1.4em;
+	background: #dff2bf url(images/tick.png) no-repeat 1em 1em;
+}
+
+.aligncenter,
+div.aligncenter {
+	display: block;
+	margin: 0 auto;
+}
+
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+
+.wp-caption {
+	border: 0.1em solid #ddd;
+	text-align: center;
+	background: #efefef;
+	padding-top: 0.4em;
+	margin: 1em;
+}
+
+.wp-caption img {
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+}
+
+.wp-caption p.wp-caption-text {
+	font-size: 0.8em;
+	line-height: 1.4em;
+	padding: 0 0.4em 0.5em;
+	margin: 0;
+}

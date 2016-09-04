@@ -1,0 +1,18 @@
+body {
+	background-color: #333;
+}
+
+#header h2 {
+	text-shadow: 1px 1px 2px #bbb;
+}
+	#header h2 a {
+		color: #fff;
+	}
+	#header h2 a:hover {
+		color: #eee;
+	}
+
+.commentCount a {
+	color: #fff;
+	background-color: #555;
+}
